@@ -6,11 +6,10 @@
 
 html {
     background-image: url('images/bg.jpg');
-    background-color: steelblue;
     background-position: right top;
     background-attachment: fixed; 
-    background-size: 2000px;
-   
+    background-size: 2000px;   
+    background-repeat: no-repeat;
 }
 
 
@@ -33,17 +32,18 @@ nav {
 
 
 nav a {
-    background-color: ;
+    background-color: rgb(0,0,0);
     color: skyblue;
-    margin: 80px;
+    margin: 75px;
     font-size: 30px;
     font-family: fonty;
     text-decoration: none;
-    text-shadow: 0 0 10px DodgerBlue;
+    text-shadow: 0 0 10px Dodgerblue;
 }
 
 section {
-    background-color: rgb(0,0,0); 
+    background-color: rgb(26,27,26); 
+    background-image: url('images/Xbox1 wood.psd');
     min-height: 55vh;
     margin: 5vh;
     border: 2px solid DodgerBlue;
@@ -56,20 +56,29 @@ footer {/*
     color: black;
     font-size: 18px;
     text-align: center;
-    margin; 10px 10px;*/
+    margin; 10px 10px;
+    */
    
 
 
 }
 
+.mainImg {
+    width: 60%;
+    display: block;
+    margin: 5vh auto;
+}
+
 h1 {
     text-align: center;
     font-family: "fonty";
-    color: white;
+    color: skyblue;
+    text-shadow: 0 0 10px Dodgerblue;
+    margin:  -4vh;
 }
 
 h2 {
-    color: black;
+    color: ;
     font-family: "Times New Roman";
     
 }
