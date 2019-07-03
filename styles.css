@@ -50,29 +50,33 @@ section {
     margin: 5vh;
     border: 2px DodgerBlue;
     box-shadow: 0 0 30px DodgerBlue;
+    
 
 
 
 }
 
 footer {
-    /*
+    
     background-color: red;
     color: black;
     font-size: 18px;
     text-align: center;
     margin; 10px 10px;
-    */
-
-
-
-
+    
 }
 
 .mainImg {
     width: 60%;
     display: block;
-    margin: 5vh auto;
+    margin: 3vh auto;
+}
+
+.secondImg{
+    
+}
+.thirdImg{
+    
 }
 
 .logo {
@@ -85,21 +89,28 @@ h1 {
     font-size: 35px;
     text-align: center;
     font-family: "fonty";
-    color: rgb(7, 7, 7);
-    text-shadow: 0 0 5px rgb(15, 140, 247);
+    color: skyblue;
+    text-shadow: 0 0 5px rgb(15, 140, 248);
     margin: -4vh;
 }
 
 h2 {
-    color: ;
-    font-family: "Times New Roman";
+    color: white;
+    font-family: "Century Gothic";
+    text-align: center;
+    font-size: 25px;
 
 }
-
+h3{
+    color: white;
+    font-family: "Century Gothic";
+    Text-align: center;
+    font-size: 25px;
+}
 
 p {
     text-align: center;
     font-family: "Century Gothic";
     color: white;
-    font-size: 25px;
+    font-size: 18px;
 }
