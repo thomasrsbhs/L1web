@@ -50,9 +50,11 @@ section {
     margin: 5vh;
     border: 2px DodgerBlue;
     box-shadow: 0 0 30px DodgerBlue;
-    
-
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    opacity: 10%;
 
 }
 
@@ -69,20 +71,26 @@ footer {
 .mainImg {
     width: 60%;
     display: block;
-    margin: 3vh auto;
+    margin: 3vh 20%;
 }
 
+
 .secondImg{
+    width: 60%;
+    display: block;
+    margin: 3vh auto;
     
 }
 .thirdImg{
-    
+      width: 60%;
+    display: block;
+    margin: 3vh 20%;
 }
 
 .logo {
     width: 25%;
     display: block;
-    margin: 1vh auto;
+    margin: 3vh auto;
 }
 
 h1 {
@@ -113,4 +121,14 @@ p {
     font-family: "Century Gothic";
     color: white;
     font-size: 18px;
+    width: 100%;
+}
+
+.skin {
+    width: 45%;
+    margin: 1%;
+}
+
+.skin img {
+    width: 100%;
 }
