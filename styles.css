@@ -74,7 +74,7 @@ footer {
     text-align: center;
     margin; 10px 10px;
 }
-
+/*these are the image classes that I gave to each product so that I can customise them all seperately*/
 .mainImg {
     width: 60%;
     display: block;
@@ -83,7 +83,7 @@ footer {
 
 
 .secondImg {
-    width: 50%;
+    width: 60%;
     display: block;
     margin: 3vh auto;
     position: relative;
@@ -148,7 +148,7 @@ p {
     font-size: 16px;
 
 }
-/*used for the size and display of the Xboxs on the product page*/
+/*used for the size and display of the Xboxs on the product page, used in as part of the div tag on the products html lets you change all images under the class name simultaneously*/
 .skin {
     width: 40%;
     margin: 5%;    
@@ -169,6 +169,7 @@ p {
 .contact {
     width: 100%;
     text-align: center;
+    font-size: 105%;
 }
 
 
