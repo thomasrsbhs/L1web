@@ -6,9 +6,16 @@
 a:hover {
     color: red;
     text-shadow: 0 0 5px red);
+
 }
 
-html {
+a {
+    font-family: "century gothic";
+    color: deepskyblue;
+    font-size: 20px;
+}
+/*The html code is responsible for the background properties of the website mainly here the image and its position and size on the page, No repeat helps so that the image is not shown many times over, and doesn't stutter the website when scrolling*/
+html { 
     background-image: url('images/bg.jpg');
     background-position: right top;
     background-attachment: fixed;
@@ -21,7 +28,7 @@ html {
     margin: 0px;
     padding: 0px;
 }
-
+/*this code is responsible for the navigation bar. Here I can choose its colours, border, and its position above the section*/
 nav {
     background-color: rgb(0, 0, 0);
     margin: 2vh 0px 8vh 0px;
@@ -34,7 +41,7 @@ nav {
 
 }
 
-
+/* This code is used for the text inside the nav bar i can change font, font clour and the spacing between  the letters here*/
 nav a {
     color: skyblue;
     margin: 60px;
@@ -44,10 +51,10 @@ nav a {
     text-shadow: 0 0 5px rgb(15, 140, 247);
 
 }
-
+/*box in the center of the page of each slide. Can change the image and text with the section*/
 section {
     background-color: rgba(0, 0, 0, 0.8);
-    min-height: 50vh;
+    min-height: 60vh;
     margin: 5vh;
     border: 2px DodgerBlue;
     box-shadow: 0 0 30px DodgerBlue;
@@ -57,15 +64,15 @@ section {
     align-items: center;
 
 }
-
+/*bottom bar on the contact page*/
 footer {
 
+    font-family: 'century gothic';
     background-color: red;
-    color: black;
+    color: white;
     font-size: 18px;
     text-align: center;
     margin; 10px 10px;
-
 }
 
 .mainImg {
@@ -96,13 +103,13 @@ footer {
     margin: 3vh auto;
     position: relative
 }
-
+/* the logo at the top of each page*/
 .logo {
     width: 25%;
     display: block;
     margin: 3vh auto;
 }
-
+/*these tags are used for the different types of texts on the page*/
 h1 {
     font-size: 28px;
     text-align: center;
@@ -121,28 +128,50 @@ h2 {
 }
 
 h3 {
-    color: white;
+    color: skyblue;
     font-family: "Century Gothic";
     Text-align: center;
-    font-size: 18px;
+    font-size: 20px;
 }
+ 
+h4 {
+    color: deepskyblue;
+    font-family: "Century Gothic";
+    text-align: center;
+}
+
 
 p {
     text-align: center;
     font-family: "Century Gothic";
     color: white;
-    font-size: 15px;
+    font-size: 16px;
 
 }
-
+/*used for the size and display of the Xboxs on the product page*/
 .skin {
     width: 40%;
-    margin: 5%;
+    margin: 5%;    
     padding: 0px;
 }
 
 .skin img {
-    width: 100%;
+    width: 90%;
     
   
+}
+
+/*these are the elements linked to classes on the contact.html that allow me to have seperate options for text on the different pages. For example if I wanted an H2 to be bigger on the Contact page then on the home page I would give it a class and give it a bigger font-size*/
+.home {
+    width: 100%;
+    text-align: center;
+}
+.contact {
+    width: 100%;
+    text-align: center;
+}
+
+
+.creditors {
+    display: center;
 }
